@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	
+	height: auto;
+	box-sizing: border-box;
+	padding: 0;
+
+
+}
+
+body {
+	
+}
+main {
+	
+	margin: 150px auto;
+	width: 600px;
+	height: 600px;
+	
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+fieldset {
+	border: 1px solid grey;
+}
+
+form {
+	padding: 10px;
+	border-color: grey;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: auto;
+}
+
+.entradas {
+	margin-bottom: 4px;
+	line-height: 25px;
+	background-color: rgba(255, 255, 0, 0.3);
+	border: 1px solid grey;
+	padding: 3px;
+	
+}
+
+#botaoEnviar {
+	line-height: 70px;
+	background-color: rgb(10, 125, 202);
+	border: 1px solid grey;
+	color: white;
+	font-size: 17px;
+}
