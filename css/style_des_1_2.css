@@ -5,7 +5,7 @@
 	padding: 0;
 }
 
-main {	
+#mainIndex {	
 	margin: 150px auto;
 	width: 600px;
 	height: 600px;
@@ -18,7 +18,7 @@ fieldset {
 	border: 1px solid grey;
 }
 
-fieldset form {
+fieldset #formIndex {
 	padding: 10px;
 	border-color: grey;
 	display: flex;
@@ -42,4 +42,36 @@ fieldset form #botaoEnviar {
 	border: 1px solid grey;
 	color: white;
 	font-size: 17px;
+}
+
+#mainPanel {
+	height: 100vw;
+	width: 15%;
+}
+
+section {
+	height: 100%;
+	width: 100%;
+	border-right: 1px solid grey;
+}
+
+#mainPanel section #formPanel {
+	display: flex;
+	flex-direction: column;
+}
+
+#mainPanel section #formPanel .aPanel {
+	text-decoration: none;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+}
+
+#mainPanel section #formPanel .aPanel span {
+	padding-right: 5px;
+}
+
+#headerPanel {
+	padding-bottom: 3px;
+	border-bottom: 1px solid grey;
 }
